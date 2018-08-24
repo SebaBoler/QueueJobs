@@ -1,4 +1,4 @@
-# QueueJobs
+# QueueJobs using subscription ( client Python )
 
 Prisma with DB working on Docker<br>
 Python consume GraphQL API <b>( at this moment only working Query)</b>
