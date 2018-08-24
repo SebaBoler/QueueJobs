@@ -5,7 +5,6 @@ Python consume GraphQL API <b>( at this moment only working Query)</b>
 
 
 <a href="https://imgflip.com/gif/2gj5nx"><img src="https://i.imgflip.com/2gj5nx.gif" title="made at imgflip.com"/></a>
-<a href="https://ibb.co/fUgvA9"><img src="https://thumb.ibb.co/fUgvA9/output_i8xql_E.gif" alt="output_i8xql_E" border="0"></a>
 
 ## Instalation
 
