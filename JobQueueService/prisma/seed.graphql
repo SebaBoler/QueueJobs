@@ -1,0 +1,22 @@
+mutation {
+  first: createQueueJobs(
+    data: {
+      params: "{\"year\":1999, \"city\": \"warsaw\"}"
+      dataIn: "{\"int\": 1, \"string\": \"value\"}"
+      jobInfo: { create: { jobType: TSP, jobGroup: ROUTEPLAN } }
+    }
+  ) {
+    id
+    status
+  }
+  second: createQueueJobs(
+    data: {
+      params: "{\"year\":2000, \"city\": \"berlin\"}"
+      dataIn: "{\"int\": 1, \"string\": \"value\"}"
+      jobInfo: { create: { jobType: PACK3D, jobGroup: HYBRID } }
+    }
+  ) {
+    id
+    status
+  }
+}

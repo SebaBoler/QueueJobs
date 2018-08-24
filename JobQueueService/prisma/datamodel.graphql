@@ -1,0 +1,27 @@
+type QueueJobs {
+  id: ID! @unique
+  customerId: String
+  jobInfo: JobInfoDetail
+  params: Json!
+  dataIn: Json!
+  status: String! @default(value: "NEW")
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type JobInfoDetail {
+  jobGroup: jobGroupList!
+  jobType: jobTypeList!
+}
+
+enum jobGroupList {
+  ROUTEPLAN # planowanie tras
+  LOAD3D # planowanie załadunku
+  HYBRID # planowanie tras i załadunku
+}
+
+enum jobTypeList {
+  PACK3D
+  TSP
+  VRPAQ
+}
