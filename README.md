@@ -1,7 +1,7 @@
 # QueueJobs
 
 Prisma with DB working on Docker<br>
-Python consume GraphQL API ( at this moment only working Query)
+Python consume GraphQL API <b>( at this moment only working Query)</b>
 
 
 <a href="https://imgflip.com/gif/2gj5nx"><img src="https://i.imgflip.com/2gj5nx.gif" title="made at imgflip.com"/></a>
