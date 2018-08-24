@@ -3,8 +3,7 @@
 Prisma with DB working on Docker<br>
 Python consume GraphQL API <b>( at this moment only working Query)</b>
 
-
-<a href="https://imgflip.com/gif/2gj5nx"><img src="https://i.imgflip.com/2gj5nx.gif" title="made at imgflip.com"/></a>
+<a href="http://pl.tinypic.com?ref=wslgsn" target="_blank"><img src="http://i64.tinypic.com/wslgsn.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
 ## Instalation
 
